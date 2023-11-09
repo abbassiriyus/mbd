@@ -420,7 +420,7 @@ body {
 }
 
 .areo-h1 h3 {
-    font-size: 35px;
+    font-size: 27px;
     color: #2d2f8c;
     font-weight: 500;
     margin-bottom: 2.5rem;
@@ -448,7 +448,7 @@ body {
 }
 
 .vrul-cards {
-    width: 23%;
+    width: 45%;
     border: 1px solid #eee;
     margin: 0.5rem;
     margin-bottom: 2rem;
@@ -490,6 +490,9 @@ body {
     font-weight: 600;
 }
 
+.arom-text-section ul {
+    margin-left: 5%;
+}
 
 .input-range-box {
     margin-top: 2rem;
@@ -593,61 +596,7 @@ input[type="range"] {
     outline: 3px solid #2b00ff;
     outline-offset: 0.125rem;
   }
-  .arom-text-section {
-    display: flex;
-    flex-wrap: wrap;
-  }
 
-  .arom-text-section p{
-    font-weight: 500;
-  }
-
-  .arom-text-section ul {
-    margin-left: 6%;
-    font-weight: 500;
-  }
-
-  .vtulki2-p {
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .vtulki2-p img {
-    float: right;
-    width: 300px;
-    height: 300px;
-  }
-
-  .vtulki2-p2 {
-    display: flex;
-  }
-
-  .vtulki2-p2 img {
-    width: 300px;
-    height: 300px;
-  }
-
-  .vtulki2-text {
-    margin-left: 2rem;
-  }
-
-  .vtulki2-text ol li {
-    margin-left: -2rem;
-    font-weight: 500;
-  }
-
-  .vtulki2-text ol {
-    margin-top: 1rem;
-  }
-
-  .vtulki-p3 {
-    display: none;
-  }
-
-  .vtulki2-p3 {
-    display: none;
-  }
 
 
 
@@ -699,47 +648,6 @@ input[type="range"] {
         flex-wrap: wrap;
     }
 
-    .vtulki2-p {
-        display: none;
-    }
-
-    .vtulki2-p2 {
-        display: none;
-    }
-
-    .glavnaya2 p {
-        font-size: 13px;
-        margin-bottom: 1rem;
-    }
-
-    .glavnaya2 p a {
-        font-size: 13px;
-    }
-
-    .areo-h1 h3 {
-        font-size: 28px;
-    }
-
-    .vtulki2-p3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-    .vtulki-p3 {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-      }
-    
-      .vtulki-p3 img {
-        float: right;
-        width: 300px;
-        height: 300px;
-      }
-
     .dostavka {
         display: flex;
         justify-content: center;
@@ -761,7 +669,7 @@ input[type="range"] {
     }
 
     .kategor_3 {
-        width: 70%;
+        width: 90%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -771,7 +679,7 @@ input[type="range"] {
 
     .kategor_3 img {
         width: 90%;
-        height: 55vw;
+        height: 100vw;
     }
 
     .vrul-box {
@@ -800,18 +708,6 @@ input[type="range"] {
         font-size: 10px;
         height: 35px;
         padding: 0;
-    }
-
-    .vtulki-p3 img {
-        float: right;
-        width: 250px;
-        height: 250px;
-    }
-
-    .vtulki2-p3 img {
-        float: right;
-        width: 250px;
-        height: 250px;
     }
 
     .kategori_tovarov {
