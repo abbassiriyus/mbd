@@ -471,6 +471,12 @@ body {
     min-height: 10px;
     background-color: #ffffffb2;
     text-align: center;
+    transition: 0.5s;
+}
+
+.areo-min-cards:hover {
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .areo-min-cards h2 {

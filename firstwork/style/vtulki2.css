@@ -490,9 +490,6 @@ body {
     font-weight: 600;
 }
 
-.arom-text-section ul {
-    margin-left: 5%;
-}
 
 .input-range-box {
     margin-top: 2rem;
@@ -596,7 +593,73 @@ input[type="range"] {
     outline: 3px solid #2b00ff;
     outline-offset: 0.125rem;
   }
+  .arom-text-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .arom-text-section p{
+    font-weight: 500;
+  }
+
+  .arom-text-section ul {
+    margin-left: 6%;
+    font-weight: 500;
+  }
+
+  .vtulki2-p {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .vtulki2-p img {
+    float: right;
+    width: 300px;
+    height: 300px;
+  }
+
+  .vtulki2-p2 {
+    display: flex;
+  }
+
+  .vtulki2-p2 img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .vtulki2-text {
+    margin-left: 2rem;
+  }
+
+  .vtulki2-text ol li {
+    margin-left: -2rem;
+    font-weight: 500;
+  }
+
+  .vtulki2-text ol {
+    margin-top: 1rem;
+  }
+
+  .vtulki-p3 {
+    display: none;
+  }
+
+  .vtulki-p3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .vtulki-p3 img {
+    float: right;
+    width: 300px;
+    height: 300px;
+  }
+
+  .vtulki2-p3 {
+    display: none;
+  }
 
 
 
@@ -648,6 +711,41 @@ input[type="range"] {
         flex-wrap: wrap;
     }
 
+    .vtulki2-p {
+        display: none;
+    }
+
+    .vtulki2-p2 {
+        display: none;
+    }
+
+    .glavnaya2 p {
+        font-size: 13px;
+        margin-bottom: 1rem;
+    }
+
+    .glavnaya2 p a {
+        font-size: 13px;
+    }
+
+    .areo-h1 h3 {
+        font-size: 28px;
+    }
+
+    .vtulki2-p3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .vtulki-p3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .dostavka {
         display: flex;
         justify-content: center;
@@ -669,7 +767,7 @@ input[type="range"] {
     }
 
     .kategor_3 {
-        width: 90%;
+        width: 70%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -679,7 +777,7 @@ input[type="range"] {
 
     .kategor_3 img {
         width: 90%;
-        height: 100vw;
+        height: 55vw;
     }
 
     .vrul-box {
