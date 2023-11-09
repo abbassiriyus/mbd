@@ -5,12 +5,16 @@
 body {
   background-color: whitesmoke !important ;
   overflow-x: hidden;
-  padding: 10px;
+  /* padding: 10px; */
+      background:url('../img/201682-light-color-hexagon-shape-background.jpg') ;
+    background-size: cover;
 }
 .content {
   max-width: 1150px;
 }
-
+p{
+  margin-bottom: 0px !important;
+}
 .kotta {
   width: 100%;
   margin: auto;
@@ -283,11 +287,11 @@ swiper-container {
 
 swiper-slide {
   width: 100%;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  height: 400px !important;
 }
 
 swiper-slide img {
@@ -390,11 +394,8 @@ swiper-slide img {
   padding-left: 10px;
   border: solid 1px rgb(230, 226, 226);
 }
-@media (max-width: 455px) {
-  .conection_div1 input {
-    width: 200px;
-  }
-}
+
+
 .conection_div1 button {
   width: 200px;
   min-width: 100px;
@@ -418,6 +419,11 @@ swiper-slide img {
   align-items: center;
   flex-wrap: wrap;
   margin-top: 5%;
+}
+@media(max-width:650px){
+  .card1{
+    width: 87%;
+  }
 }
 .card1_card {
   color: black;
@@ -461,7 +467,7 @@ swiper-slide img {
   flex-wrap: wrap;
 }
 .prizvoditeli_2 {
-  width: 67%;
+  width: 90%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -525,6 +531,7 @@ display: none;
   border: none;
   border-radius: 5px;
   background: url("https://mgb-bearings.ru/wp-content/uploads/2021/12/about-item-1.png");
+  background-size: cover;
 }
 .about_2 {
   width: 33%;
@@ -535,6 +542,7 @@ display: none;
   border: none;
   border-radius: 5px;
   background: url("https://mgb-bearings.ru/wp-content/uploads/2021/12/about-item-1.png");
+  background-size: cover;
 }
 .about h1 {
   color: black;
@@ -648,31 +656,37 @@ display: none;
 .usloviya{
   width: 60%;
   min-width: 300px;
+  display: flex;
+  justify-content: start;
+  align-items: start;
   margin-top: 5% !important;
   margin: auto;
   height: auto;
   background:url("https://mgb-bearings.ru/wp-content/uploads/2021/12/conditions-bg.png");
+  background-size: cover;
 }
 .usloviya_2{
-  width:85%;
-  
+  width:100%;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: start;
-  gap: 20px;
+  gap: 50px;
+  padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
   flex-wrap: wrap;
 }
 .usloviya22{
   display: flex;
+  width: 200px;
 }
 .usloviya22 p{
-  width: 70%;
+  width: 200px;
+  min-width: 200px;
 }
 .usloviya22 img{
   padding-bottom: 100px;
-  padding-right: 20px;
+  padding-right: 10px;
 }
 .usloviya_1{
   width: 100%;
@@ -689,7 +703,31 @@ display: none;
   padding-bottom: 50px;
   border-top: solid 1px red;
 }
-
+.usloviya_left{
+  width: 60%;
+}
+.usloviya_right{
+  width: 30%;
+}
+.onmouse ul{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.onmouse ul li span{
+ width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.onmouse li{
+  width: 13%;
+}
     swiper-container {
       width: 100%;
       padding-top: 50px;
@@ -700,7 +738,6 @@ display: none;
       background-position: center;
       background-size: cover;
       width: 300px;
-      height: 300px;
     }
 
     swiper-slide img {
@@ -713,19 +750,25 @@ display: none;
     }
 .swiper1_swipe{
   width: 100%;
+  padding: 50px;
   min-width: 300px;
   padding-left: 20px;
   background-color: white;
   border-bottom: solid 3px red;
 }
 .popular_1{
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: space-around;
   align-items: center;
   padding-top: 60px;
   flex-wrap: wrap;
+}
+@media(max-width:390px){
+  .popular_1{
+    width: 88%;
+  }
 }
 .popular11 span{
   color: red;
@@ -820,7 +863,8 @@ input.li{
 .prodaem{
   width: 65%;
   margin: auto;
-  margin-top: 5%;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .prodaem a{
   color: red;
@@ -885,12 +929,15 @@ input.li{
   flex-wrap: wrap;
   color: gray;
   font-size: 12px;
+  background-color: #FFF;
   padding-top: 10px;
+  padding-bottom: 10px;
 }
 .oxiri_2 a{
   color: red;
   text-decoration: none;
 }
+
 
 @media(max-width:600px){
   .phone{
@@ -915,5 +962,40 @@ input.li{
   }
   dl, ol, ul{
     margin-bottom: 0px !important;
+  }
+  .prodaem{
+    width: 85%;
+  }
+  .about_1{
+    width: 90%;
+  }
+  .about_2{
+    width: 90%;
+  }
+  .card2_card{
+    width: 90%;
+  }
+  .conection{
+    width: 90%;
+  }
+}
+.karta{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media(max-width:1200px){
+  .usloviya_right{
+    display: none;
+  }
+  .usloviya_left{
+    width: 100%;
+  }
+  .usloviya_2{
+    width: 100%;
+  }
+  .usloviya{
+    width: 100% !important;
   }
 }

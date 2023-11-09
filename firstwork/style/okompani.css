@@ -4,7 +4,8 @@
 }
 body {
   background-color: whitesmoke !important ;
-  padding: 10px;
+  background:url('../img/201682-light-color-hexagon-shape-background.jpg') ;
+    background-size: cover;
 }
 .content {
   max-width: 1150px;
@@ -266,6 +267,25 @@ ul {
   padding-left: 10px;
   border: solid 1px gray;
 }
+.onmouse ul{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.onmouse ul li span{
+ width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.onmouse li{
+  width: 13%;
+}
 @media (max-width: 650px) {
   .nodir {
     flex-wrap: wrap;
@@ -307,16 +327,20 @@ ul {
     padding-left: 10px;
 }
 .mm1 a span li{
-    font-size: 25px;
+   font-size: 20px;
+     font-family: 'Roboto Condensed',sans-serif;
     padding-left: 35px;
+        font-style: inherit;
+    font-weight: inherit;
 }
 .img_1 img{
     width: 15%;
     min-width: 300px;
 }
 .kategor_1 ul.ulli .mm a li:hover{
-color: darkred;
-transition: 2s;
+color: red;
+  transition: 2s;
+  transform: scale(50px);
 }
 .kategori_tovarov{
     width: 100%;
@@ -405,6 +429,7 @@ transition: 2s;
   flex-wrap: wrap;
   color: gray;
   font-size: 12px;
+      background-color: #FFF;
   padding-top: 10px;
 }
 .oxiri_1 a{

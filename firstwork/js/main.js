@@ -11,7 +11,7 @@ function menu_chiq() {
     console.log(a);
 }
 function hover1() {
-    document.querySelector(".card12").style="display:flex"
+    document.querySelector(".card12").style="display:block"
 }
 function hover12() {
   document.querySelector(".card12").style = "display:none";

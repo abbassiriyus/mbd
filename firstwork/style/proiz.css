@@ -6,8 +6,9 @@
   }
   body {
     overflow-x: hidden;
-    background-color: whitesmoke !important ;
-    padding: 10px;
+    background:url('../img/201682-light-color-hexagon-shape-background.jpg') ;
+    background-size: cover;
+
   }
   .content {
     max-width: 1150px;
@@ -206,7 +207,25 @@
     border: solid 1px gray;
     outline: none;
   }
-
+.onmouse ul{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.onmouse ul li span{
+ width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.onmouse li{
+  width: 13%;
+}
   .kategor_1 a{
       text-decoration: none;
       color: black;
@@ -334,6 +353,7 @@
     flex-wrap: wrap;
     color: gray;
     font-size: 12px;
+        background-color: #FFF;
     padding-top: 10px;
   }
   .oxiri_1 a{
@@ -514,8 +534,9 @@
 }
 
 .kategor_3 ul.ulli .mm a li:hover{
-  color: #e11212;
-  font-weight: 700;
+ color: red;
+  transition: 2s;
+  transform: scale(50px);
 }
 
 .kategor_3 {
@@ -528,29 +549,6 @@
 .textarea-p {
     font-weight: 600;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   /* media css */
 
   @media (max-width: 1156px) {

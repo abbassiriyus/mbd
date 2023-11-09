@@ -4,7 +4,8 @@
 }
 body {
   background-color: whitesmoke !important ;
-  padding: 10px;
+   background:url('../img/201682-light-color-hexagon-shape-background.jpg') ;
+    background-size: cover;
 }
 .content {
   max-width: 1150px;
@@ -266,6 +267,25 @@ ul {
   padding-left: 10px;
   border: solid 1px gray;
 }
+.onmouse ul{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.onmouse ul li span{
+ width: 100%;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+.onmouse li{
+  width: 13%;
+}
 @media (max-width: 650px) {
   .nodir {
     flex-wrap: wrap;
@@ -404,6 +424,7 @@ font-weight: 1000;
   flex-wrap: wrap;
   color: gray;
   font-size: 12px;
+      background-color: #FFF;
   padding-top: 10px;
 }
 .oxiri_1 a{
