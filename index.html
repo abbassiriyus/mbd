@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
@@ -17,6 +18,17 @@
 <li>Главная</li>
 <li>Партнерам</li>
 </ul>
+<div  onclick="document.querySelector('.menu_mini').style='display:block'" class="toglle">
+<i class='bx bx-menu'></i>
+<div  onclick="document.querySelector('.menu_mini').style='display:none'" onmouseleave="document.querySelector('.menu_mini').style='display:none'" class="menu_mini">
+  <a href="#">Доставка и оплата</a>
+  <a href="#">О компании</a>
+  <a href="#">Контакты</a>
+  <a href="#">FAQ</a>
+  <a href="#">Главная</a>
+  <a href="#">Партнерам</a>
+</div>
+</div>
 </nav>
 
 
