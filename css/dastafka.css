@@ -58,7 +58,7 @@
     width: 150px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: none;
-    
+    z-index: 111111111;
 }
 a{
     text-decoration: none;
