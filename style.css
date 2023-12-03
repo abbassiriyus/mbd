@@ -1,0 +1,1414 @@
+.ichi{
+    margin-left: 15%;
+    width: 45%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    color: white;
+}
+.ichi h2{
+    margin-left: -70px;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(228, 228, 228);
+}
+.ichi h2:hover{
+    cursor: pointer;
+    color: red;
+    transition: 1s;
+}
+.kota{
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: rgba(0, 0, 0, 0.849);
+    width: 110%;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+.kota1 img{
+    position: absolute;
+    left: 16%;
+}
+.ichi1{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.ichi2{
+    margin-left: 40%;
+    margin-top: -80px
+}
+.ichi3{
+    margin-top: -55px;
+    margin-left: 52%;
+}
+.ichi4{
+    display: flex;
+    margin-top: 20px;
+}
+.ichi4 h3{
+    font-size: 17px;
+    color: white;
+    margin-left: -20px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    width: 450px;
+}
+.ichi4 input{
+    width: 100%;
+    margin-top: 2px;
+    height: 55px;
+}
+.ichi5{
+    width: 300px;
+    background-color: white;
+}
+.ichi3 button{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(172, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    margin-top: -80px;
+    margin-left: 10%;
+}
+
+.tegi{
+    width: 110%;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.877);
+
+}
+.tegi1{
+    display: flex;
+    height: 65%;
+}
+.tegi2{
+    margin-left: 20%;
+    margin-top: 3%;
+}
+.tegi2 span{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.tegi2 u{
+    font-size: 13px;
+    color: rgb(179, 179, 179);
+}
+.tegi2 p:hover{
+    cursor: pointer;
+    color: white;
+}
+.tegi3{
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.tegi3 span{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.tegi3 p{
+    color: rgb(179, 179, 179);
+}
+.tegi4{
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.tegi4 span{
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.tegi4 p{
+    color: rgb(179, 179, 179);
+}
+.tegi4 p:hover{
+    cursor: pointer;
+    color: white;
+}
+.tegi5{
+    width: 25%;
+    margin-left: 2%;
+    color: rgb(179, 179, 179);
+    margin-top: 3%;
+}
+.rasmtegi5{
+    position: relative;
+    margin-top: 10%;
+}
+.rasmtegi5 img{
+    width: 40px;
+    height: 40px;
+}
+
+
+.lichniy{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi5 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi5 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi6{
+    margin-top: -1300px;
+    margin-left: 23%;
+}
+.ichi7{
+    margin-top: 150px;
+}
+.bir{
+    color: rgb(2, 0, 109)
+}
+.bir:hover{
+    cursor: pointer;
+    color: red;
+}
+.mb-3{
+    width: 90%;
+    margin-left: 2%;
+}
+.ichi7 span{
+    position: absolute;
+    margin-top: -90px;
+    font-size: 30px;
+}
+.ichi8{
+    width: 45%;
+    height: 350px;
+    box-shadow: 1px 2px 1px 2px rgb(233, 233, 233);
+}
+.ichi8 h6{
+    margin-top: 20px;
+    margin-left: 2%;
+}
+.ikki{
+    position: absolute;
+    font-size: 30px;
+    margin-top: 40px;
+    margin-left: 10%;
+}
+.ichi9 span{
+    font-size: 30px;
+    position: absolute;
+    margin-top: -80px;
+}
+.ichi9{
+    width: 40%;
+    height: 400px;
+    margin-left: 50%;
+    margin-top: -350px;
+    box-shadow: 1px 2px 1px 2px rgb(233, 233, 233);
+}
+.mb-4{
+    width: 90%;
+    margin-left: 2%;
+}
+.mb-4 p{
+    margin-top: 100px;
+}
+.ichi9 button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 105);
+    color: white;
+    border: none;
+    margin-left: 4%;
+}
+.hrr1{
+    margin-top: 60px;
+}
+.mb-5{
+    width: 90%;
+    height: 300px;
+}
+.ichi11 input{
+    width: 326px;
+    height: 47px;
+    margin-left: 30px;
+}
+.uch{
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    margin-top: 60px;
+    background-color: rgb(0, 0, 116);
+    font-size: 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.areomet{
+    display: none;
+}
+.lichniy1{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi12 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi12 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi13{
+    margin-top: -850px;
+    margin-left: 33%;
+}
+.ichi13 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi14{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi15{
+    margin-left: 33%;
+    width: 65%;
+}
+.ichi15 img{
+    width: 245px;
+    height: 245px;
+    background-color: red;
+}
+
+.vtulka{
+    display: none;
+}
+.lichniy2{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi16 li{
+    font-family: 'Comfortaa';
+    font-size: 13px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi16 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi16 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi16 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.sp1{
+    color: rgb(192, 0, 0);
+}
+.ichi17{
+    margin-top: -1800px;
+    margin-left: 33%;
+}
+.ichi17 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi18{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi19{
+    margin-left: 33%;
+    width: 65%;
+}
+.ichi19 img{
+    width: 245px;
+    height: 245px;
+    background-color: red;
+}
+
+.vtulka1{
+    display: none;
+}
+.lichniy3{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi20 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi20 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi20 li{
+    font-family: 'Comfortaa';
+    font-size: 13px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi20 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi21{
+    margin-top: -1750px;
+    margin-left: 33%;
+}
+.ichi21 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi22{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi23{
+    margin-left: 33%;
+    width: 65%;
+}
+.ichi23 img{
+    width: 245px;
+    height: 245px;
+    background-color: red;
+}
+
+.zvezda{
+    display: none;
+}
+.lichniy4{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi24 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi24 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi24 li{
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi24 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi25{
+    margin-top: -900px;
+    margin-left: 33%;
+}
+.ichi25 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi26{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi27{
+    margin-left: 33%;
+    width: 65%;
+}
+.ichi27 img{
+    width: 245px;
+    height: 245px;
+}
+
+
+.igol{
+    display: none;
+}
+.lichniy5{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi28 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi28 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi28 li{
+    font-family: 'Comfortaa';
+    font-size: 16px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi28 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi29{
+    margin-top: -1200px;
+    margin-left: 33%;
+}
+.ichi29 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi30{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi31{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi31 img{
+    width: 245px;
+    height: 245px;
+}
+
+.korpus{
+    display: none;
+}
+.lichniy6{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi32 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi32 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi32 li{
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi32 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi33{
+    margin-top: -3300px;
+    margin-left: 33%;
+}
+.ichi33 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi34{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi35{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi35 img{
+    width: 245px;
+    height: 245px;
+}
+
+
+.vtulka3{
+    display: none;
+}
+.lichniy7{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi36 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi36 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi36 li{
+    font-family: 'Comfortaa';
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi36 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi37{
+    margin-top: -1900px;
+    margin-left: 33%;
+}
+.ichi37 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi38{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi39{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi39 img{
+    width: 245px;
+    height: 245px;
+}
+
+.sharik{
+    display: none;
+}
+.lichniy8{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi40 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi40 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi40 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi40 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi41{
+    margin-top: -1900px;
+    margin-left: 33%;
+}
+.ichi41 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi42{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi43{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi43 img{
+    width: 245px;
+    height: 245px;
+}
+
+.krep{
+    display: none;
+}
+.lichniy9{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi44 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi44 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi44 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi44 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi45{
+    margin-top: -1050px;
+    margin-left: 33%;
+}
+.ichi45 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi46{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi47{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi47 img{
+    width: 245px;
+    height: 245px;
+}
+
+.mano{
+    display: none;
+}
+.lichniy10{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi48 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi48 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi48 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi48 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi49{
+    margin-top: -1350px;
+    margin-left: 33%;
+}
+.ichi49 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi50{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi51{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi51 img{
+    width: 245px;
+    height: 245px;
+}
+
+.muft{
+    display: none;
+}
+.lichniy11{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi52 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi52 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi52 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi52 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi53{
+    margin-top: -1050px;
+    margin-left: 33%;
+}
+.ichi53 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi54{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi55{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi55 img{
+    width: 245px;
+    height: 245px;
+}
+
+.obgon{
+    display: none;
+}
+.lichniy12{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi56 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi56 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi56 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi56 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi57{
+    margin-top: -1700px;
+    margin-left: 33%;
+}
+.ichi57 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi58{
+    width: 60%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi59{
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi59 img{
+    width: 245px;
+    height: 245px;
+}
+
+.opor{
+    display: none;
+}
+.lichniy13{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi60 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi60 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi60 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi60 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi61{
+    margin-top: -1300px;
+    margin-left: 33%;
+}
+.ichi61 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi62{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi63{
+    margin-top: 100px;
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi63 img{
+    width: 245px;
+    height: 245px;
+}
+
+.podshiv{
+    display: none;
+}
+.lichniy14{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi64 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi64 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi64 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi64 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi65{
+    margin-top: -900px;
+    margin-left: 33%;
+}
+.ichi65 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi66{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi67{
+    margin-top: 100px;
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi67 img{
+    width: 245px;
+    height: 245px;
+}
+
+.podshiv1{
+    display: none;
+}
+.lichniy15{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi68 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi68 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi68 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi68 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi69{
+    margin-top: -1100px;
+    margin-left: 33%;
+}
+.ichi69 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi70{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi71{
+    margin-top: 100px;
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi71 img{
+    width: 245px;
+    height: 245px;
+}
+
+.podshiv2{
+    display: none;
+}
+.lichniy16{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi72 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi72 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi72 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 70px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi72 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi73{
+    margin-top: -1050px;
+    margin-left: 33%;
+}
+.ichi73 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi74{
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 33%;
+}
+.ichi75{
+    margin-top: 50px;
+    margin-left: 33%;
+    width: 55%;
+}
+.ichi75 img{
+    width: 245px;
+    height: 245px;
+}
+
+.razem{
+    display: none;
+}
+.lichniy17{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi76 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi76 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi76 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi76 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi77{
+    margin-top: -2100px;
+    margin-left: 22%;
+}
+.ichi77 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi78{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+.ichi79{
+    margin-top: 50px;
+    margin-left: 22%;
+    width: 75%;
+}
+.ichi79 img{
+    width: 245px;
+    height: 245px;
+}
+
+.remen{
+    display: none;
+}
+.lichniy18{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi80 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi80 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi80 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi80 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi81{
+    margin-top: -1400px;
+    margin-left: 22%;
+}
+.ichi81 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi82{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+.ichi83{
+    margin-top: 50px;
+    margin-left: 22%;
+    width: 75%;
+}
+.ichi83 img{
+    width: 245px;
+    height: 245px;
+}
+
+.rolik{
+    display: none;
+}
+.lichniy19{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi84 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi84 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi84 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi84 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi85{
+    margin-top: -2250px;
+    margin-left: 22%;
+}
+.ichi85 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi86{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+.ichi87{
+    margin-top: 50px;
+    margin-left: 22%;
+    width: 75%;
+}
+.ichi87 img{
+    width: 245px;
+    height: 245px;
+}
+
+.sistema{
+    display: none;
+}
+.lichniy20{
+    margin-top: 2%;
+    margin-left: 15%;
+}
+.ichi88 span{
+    font-family: 'Comfortaa';
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi88 span:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi88 li{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    display: flexbox;
+    align-items: center;
+    width: 300px;
+    height: 60px;
+    box-shadow: 2px 1px 2px 1px rgb(233, 233, 233);
+}
+.ichi88 li:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: red;
+}
+.ichi89{
+    margin-top: -2250px;
+    margin-left: 22%;
+}
+.ichi89 h1{
+    margin-top: 20px;
+    font-size: 40px;
+    color: rgb(0, 0, 109);
+}
+.ichi90{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: 22%;
+}
+.ichi91{
+    margin-top: 50px;
+    margin-left: 22%;
+    width: 75%;
+}
+.ichi91 img{
+    width: 245px;
+    height: 245px;
+}
+
+
+
+
+
+
+.glava{
+    margin-bottom: 500px;
+}
+
+body{
+    overflow-x: hidden;
+}
