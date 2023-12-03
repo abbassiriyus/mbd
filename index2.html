@@ -10,9 +10,291 @@
     <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="icon" href="favicon.png" />
+    <link rel="stylesheet" href="../css/help.css">
+    <link rel="stylesheet" href="../css/faq.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&family=Scada&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/dastafka.css">
     <title>Document</title>
 </head>
 <body>
+    <div class="help_main">
+        <nav class="navbar">
+            <ul>
+              <li>Доставка и оплата</li>
+          <li>О компании</li>
+          <li>Контакты</li>
+          <li>FAQ</li>
+          <li>Главная</li>
+          <li>Партнерам</li>
+          </ul>
+          <div  onclick="document.querySelector('.menu_mini').style='display:block'" class="toglle">
+          <i class='bx bx-menu'></i>
+          <div  onclick="document.querySelector('.menu_mini').style='display:none'" onmouseleave="document.querySelector('.menu_mini').style='display:none'" class="menu_mini">
+            <a href="#">Доставка и оплата</a>
+            <a href="#">О компании</a>
+            <a href="#">Контакты</a>
+            <a href="#">FAQ</a>
+            <a href="#">Главная</a>
+            <a href="#">Партнерам</a>
+          </div>
+          </div>
+            </nav>
+        <div class="help_header">
+            <img style="z-index: 11;" src="../image/Rectangle 1.png" alt="">
+            <img style="width: 1920px;" src="../image/a-close-up-of-a-robot-s-gear_188544-21931 1.png" alt="">
+            <div class="for_help_bottom">
+            <h2>Помощь в выборе
+                подшипников</h2>
+                <h3>Большой выбор товаров и
+                    всего остального</h3>
+                    <button>КАТАЛОГ ТОВАРОВ</button></div>
+        </div>
+        <div class="help_bottom_header">
+            <div class="center_faq_card">
+                <div class="for_block">
+                <h2>Оставьте вашу заявку</h2>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Имя">
+                <input id="texarea" type="text" placeholder="Имя">
+                <button>Отправить</button>
+            </div>
+            </div>
+        </div>
+        <div class="help_center_header">
+            <h2>Каталог подшипников</h2>
+            <div class="help_cards">
+                <div class="help_card">
+                    <img src="../image/gear-metal-wheels-isolated-on-white-background_93675-135487 1.png" alt="">
+                    <h3>Шарикоподшипники</h3>
+                    <p>В качестве тел качения в них используются шаркиВ качестве тел качения в них используются шаркиВ качестве тел качения в них используются шарки.</p>
+                    <button>ЗАКАЗАТЬ</button>
+                </div>
+                <div class="help_card">
+                    <img src="../image/gear-metal-wheels-isolated-on-white-background_93675-135487 1.png" alt="">
+                    <h3>Шарикоподшипники</h3>
+                    <p>В качестве тел качения в них используются шаркиВ качестве тел качения в них используются шаркиВ качестве тел качения в них используются шарки.</p>
+                    <button>ЗАКАЗАТЬ</button>
+                </div>
+                <div class="help_card">
+                    <img src="../image/gear-metal-wheels-isolated-on-white-background_93675-135487 1.png" alt="">
+                    <h3>Шарикоподшипники</h3>
+                    <p>В качестве тел качения в них используются шаркиВ качестве тел качения в них используются шаркиВ качестве тел качения в них используются шарки.</p>
+                    <button>ЗАКАЗАТЬ</button>
+                </div>
+            </div>
+            <button class="red_button">Все производители</button>
+        </div>
+        <div class="help_accardions">
+            <h5>Промышленность</h5>
+            <div class="faq_accardion">
+                <div class="acc_div">
+                    <div onclick="acc()" class="for_acc_div">
+                        <div class="for_acc_flex">
+                        <img src="../image/Black11.png" alt="">
+                    <h1>Возможен ли самовывоз товара?</h1>
+                </div>
+                <i id="bx-chevron-down" class='bx bx-chevron-down'></i>
+                </div>
+                <div id="acc_bottom" class="acc_bottom">
+                    <div class="helps_for_block">
+                        <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    </div>
+                </div>
+                <div onclick="acc1()" class="for_acc_div">
+                    <div class="for_acc_flex">
+                    <img src="../image/Black11.png" alt="">
+                <h1>Возможен ли самовывоз товара?</h1>
+            </div>
+            <i id="bx-chevron-down1" class='bx bx-chevron-down'></i>
+            </div>
+            <div id="acc_bottom1" class="acc_bottom">
+                <div class="helps_for_block">
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                </div>
+            </div>
+            <div onclick="acc2()" class="for_acc_div">
+                <div class="for_acc_flex">
+                <img src="../image/Black11.png" alt="">
+            <h1>Возможен ли самовывоз товара?</h1>
+        </div>
+        <i id="bx-chevron-down2" class='bx bx-chevron-down'></i>
+        </div>
+        <div id="acc_bottom2" class="acc_bottom">
+            <div class="helps_for_block">
+                <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+            </div>
+        </div>
+        <div onclick="acc3()" class="for_acc_div">
+                        <div class="for_acc_flex">
+                        <img src="../image/Black11.png" alt="">
+                    <h1>Возможен ли самовывоз товара?</h1>
+                </div>
+                <i id="bx-chevron-down3" class='bx bx-chevron-down'></i>
+                </div>
+                <div id="acc_bottom3" class="acc_bottom">
+                    <div class="helps_for_block">
+                        <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    <p>-Сельскохозяйственное машиностроение</p>
+                    </div>
+                </div>
+
+                <div onclick="acc4()" class="for_acc_div">
+                    <div class="for_acc_flex">
+                    <img src="../image/Black11.png" alt="">
+                <h1>Возможен ли самовывоз товара?</h1>
+            </div>
+            <i id="bx-chevron-down4" class='bx bx-chevron-down'></i>
+            </div>
+            <div id="acc_bottom4" class="acc_bottom">
+                <div class="helps_for_block">
+                    <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                <p>-Сельскохозяйственное машиностроение</p>
+                </div>
+            </div>
+            <div onclick="acc5()" class="for_acc_div">
+                <div class="for_acc_flex">
+                <img src="../image/Black11.png" alt="">
+            <h1>Возможен ли самовывоз товара?</h1>
+        </div>
+        <i id="bx-chevron-down5" class='bx bx-chevron-down'></i>
+        </div>
+        <div id="acc_bottom5" class="acc_bottom">
+            <div class="helps_for_block">
+                <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            <p>-Сельскохозяйственное машиностроение</p>
+            </div>
+        </div>
+        <div onclick="acc6()" class="for_acc_div">
+            <div class="for_acc_flex">
+            <img src="../image/Black11.png" alt="">
+        <h1>Возможен ли самовывоз товара?</h1>
+    </div>
+    <i id="bx-chevron-down6" class='bx bx-chevron-down'></i>
+    </div>
+    <div id="acc_bottom6" class="acc_bottom">
+        <div class="helps_for_block">
+            <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        <p>-Сельскохозяйственное машиностроение</p>
+        </div>
+    </div>
+    <div onclick="acc7()" class="for_acc_div">
+        <div class="for_acc_flex">
+        <img src="../image/Black11.png" alt="">
+    <h1>Возможен ли самовывоз товара?</h1>
+</div>
+<i id="bx-chevron-down7" class='bx bx-chevron-down'></i>
+</div>
+<div id="acc_bottom7" class="acc_bottom">
+    <div class="helps_for_block">
+        <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    <p>-Сельскохозяйственное машиностроение</p>
+    </div>
+</div>
+<div onclick="acc8()" class="for_acc_div">
+    <div class="for_acc_flex">
+    <img src="../image/Black11.png" alt="">
+<h1>Возможен ли самовывоз товара?</h1>
+</div>
+<i id="bx-chevron-down8" class='bx bx-chevron-down'></i>
+</div>
+<div id="acc_bottom8" class="acc_bottom">
+<div class="helps_for_block">
+    <p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+</div>
+</div>
+<div onclick="acc9()" class="for_acc_div">
+    <div class="for_acc_flex">
+    <img src="../image/Black11.png" alt="">
+<h1>Возможен ли самовывоз товара?</h1>
+</div>
+<i id="bx-chevron-down9" class='bx bx-chevron-down'></i>
+</div>
+<div id="acc_bottom9" class="acc_bottom">
+<div class="helps_for_block">
+    <p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+<p>-Сельскохозяйственное машиностроение</p>
+</div>
+</div>
+            </div>
+            </div>
+        </div>
+    </div>
     <div class="index2_container">
         <div class="index2_main">
             <div class="index2_main_box">
@@ -311,5 +593,47 @@
           },
         });
       </script>
+      <script>
+        function acc() {
+            document.querySelector("#acc_bottom").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down").classList.toggle("arrow_bottom1")
+        }
+        function acc1() {
+            document.querySelector("#acc_bottom1").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down1").classList.toggle("arrow_bottom1")
+        }
+        function acc2() {
+            document.querySelector("#acc_bottom2").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down2").classList.toggle("arrow_bottom1")
+        }
+        function acc3() {
+            document.querySelector("#acc_bottom3").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down3").classList.toggle("arrow_bottom1")
+        }
+        function acc4() {
+            document.querySelector("#acc_bottom4").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down4").classList.toggle("arrow_bottom1")
+        }
+        function acc5() {
+            document.querySelector("#acc_bottom5").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down5").classList.toggle("arrow_bottom1")
+        }
+        function acc6() {
+            document.querySelector("#acc_bottom6").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down6").classList.toggle("arrow_bottom1")
+        }
+        function acc7() {
+            document.querySelector("#acc_bottom7").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down7").classList.toggle("arrow_bottom1")
+        }
+        function acc8() {
+            document.querySelector("#acc_bottom8").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down8").classList.toggle("arrow_bottom1")
+        }
+        function acc9() {
+            document.querySelector("#acc_bottom9").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down9").classList.toggle("arrow_bottom1")
+        }
+    </script>
 </body>
 </html>

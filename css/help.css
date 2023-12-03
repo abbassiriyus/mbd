@@ -43,6 +43,7 @@
     height: 60px;
     border-radius: 10px;
     font-size: 20px;
+    cursor: pointer;
 }
 .for_help_bottom{
     position: relative;
