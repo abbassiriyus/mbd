@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/faq.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@700&family=Scada&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <div class="faq_main">
+        <div class="faq_accardion">
+            <h1 class="faqs_h1">Вопрос - ответ</h1>
+            <div class="acc_div">
+                <div onclick="acc()" class="for_acc_div">
+                    <div class="for_acc_flex">
+                    <img src="../image/Black.png" alt="">
+                <h1>Возможен ли самовывоз товара?</h1>
+            </div>
+            <i id="bx-chevron-down" class='bx bx-chevron-down'></i>
+            </div>
+            <div id="acc_bottom" class="acc_bottom">
+                <p>Самовывоз можно осуществить по адресу: 198099 г. Санкт-Петербург, ул. Оборонная, д. 10, литера А, помещение 306. каб. 24-8. График работы офиса: ПН — ПТ с 9:00 до 18:00</p>
+            </div>
+            <div onclick="acc1()" class="for_acc_div">
+                <div class="for_acc_flex">
+                <img src="../image/Black.png" alt="">
+            <h1>Возможен ли самовывоз товара?</h1>
+        </div>
+        <i id="bx-chevron-down1" class='bx bx-chevron-down'></i>
+        </div>
+        <div id="acc_bottom1" class="acc_bottom">
+            <p>Самовывоз можно осуществить по адресу: 198099 г. Санкт-Петербург, ул. Оборонная, д. 10, литера А, помещение 306. каб. 24-8. График работы офиса: ПН — ПТ с 9:00 до 18:00</p>
+        </div>
+        <div onclick="acc2()" class="for_acc_div">
+            <div class="for_acc_flex">
+            <img src="../image/Black.png" alt="">
+        <h1>Возможен ли самовывоз товара?</h1>
+    </div>
+    <i id="bx-chevron-down2" class='bx bx-chevron-down'></i>
+    </div>
+    <div id="acc_bottom2" class="acc_bottom">
+        <p>Самовывоз можно осуществить по адресу: 198099 г. Санкт-Петербург, ул. Оборонная, д. 10, литера А, помещение 306. каб. 24-8. График работы офиса: ПН — ПТ с 9:00 до 18:00</p>
+    </div>
+    <div onclick="acc3()" class="for_acc_div">
+                    <div class="for_acc_flex">
+                    <img src="../image/Black.png" alt="">
+                <h1>Возможен ли самовывоз товара?</h1>
+            </div>
+            <i id="bx-chevron-down3" class='bx bx-chevron-down'></i>
+            </div>
+            <div id="acc_bottom3" class="acc_bottom">
+                <p>Самовывоз можно осуществить по адресу: 198099 г. Санкт-Петербург, ул. Оборонная, д. 10, литера А, помещение 306. каб. 24-8. График работы офиса: ПН — ПТ с 9:00 до 18:00</p>
+            </div>
+        </div>
+        </div>
+        <div class="bottom_faq_accardion">
+            <div class="center_faq_card">
+                <div class="for_block">
+                <h2>Задать свой вопрос</h2>
+                <input type="text" placeholder="Имя">
+                <input type="text" placeholder="Имя">
+                <input id="texarea" type="text" placeholder="Имя">
+                <button>Отправить</button>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function acc() {
+            document.querySelector("#acc_bottom").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down").classList.toggle("arrow_bottom1")
+        }
+        function acc1() {
+            document.querySelector("#acc_bottom1").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down1").classList.toggle("arrow_bottom1")
+        }
+        function acc2() {
+            document.querySelector("#acc_bottom2").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down2").classList.toggle("arrow_bottom1")
+        }
+        function acc3() {
+            document.querySelector("#acc_bottom3").classList.toggle("acc_bottom1")
+            document.querySelector("#bx-chevron-down3").classList.toggle("arrow_bottom1")
+        }
+    </script>
+</body>
+</html>

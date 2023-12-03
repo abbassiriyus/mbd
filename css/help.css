@@ -1,0 +1,197 @@
+*{
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Scada', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.help_header{
+    min-height: 550px;
+    position: relative;
+    overflow: hidden;
+}
+.help_header h2{
+    color: white;
+    max-width: 550px;
+    width: 100%;
+    font-size: 65px;
+    font-weight: 700;
+}
+.help_header h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 40px;
+}
+.help_header img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 550px;
+}
+.help_header button{
+    margin-top: 40px;
+    color: white;
+    border: none;
+    background-color: #2E2F8C;
+    max-width: 280px;
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.for_help_bottom{
+    position: relative;
+    z-index: 11111111;
+    padding-top: 50px;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+.help_bottom_header{
+    background-color: #000000;
+    padding: 120px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.help_center_header h2{
+    font-size: 65px;
+    color: white;
+    max-width: 1100px;
+    margin: auto;
+}
+.help_center_header{
+    background-color: #000617;
+    padding: 80px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.help_card{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 25px;
+    min-height: 550px;
+    text-align: center;
+    background-color: #212529;
+    padding: 30px 20px;
+    margin-top: 40px;
+}
+.help_card img{
+    display: flex; 
+    margin: auto;
+}
+.help_card h3{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.help_card p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px !important;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+}
+.help_card button{
+    background-color: #2E2F8C;
+    color: white;
+    border: none;
+    max-width: 150px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.help_cards{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1300px;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.red_button{
+    margin: auto;
+    background-color: #FF0000;
+    max-width: 300px;
+    width: 100%;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    font-size: 22px;
+}
+.help_accardions h5{
+    color: white;
+    font-size: 65px;
+    max-width: max-content;
+    margin: auto;
+}
+.help_accardions{
+    background-color: #000000;
+    padding: 120px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.help_main .acc_bottom1{
+    height: 550px;
+    padding: 40px;
+}
+.help_main .acc_bottom p{
+    margin-top: 15px;
+}
+@media(max-width:650px){
+    .help_accardions h5{
+        font-size: 50px;
+    }
+    .help_center_header h2{
+        font-size: 50px;
+    }
+    .help_header h2{
+        font-size: 50px;
+    }
+    .help_header h3{
+        font-size: 25px;
+    }
+}
+@media(max-width:450px){
+    .help_accardions h5{
+        font-size: 40px;
+    }
+    .help_center_header h2{
+        font-size: 40px;
+    }
+    .help_header h2{
+        font-size: 40px;
+    }
+    .help_header h3{
+        font-size: 20px;
+    }
+    .help_card h3{
+        font-size: 25px;
+    }
+    .help_card p{
+        font-size: 16px;
+    }
+    .help_header{
+        height: 400px !important;
+    }
+    .help_header img{
+        min-height: 400px !important;
+    }
+}

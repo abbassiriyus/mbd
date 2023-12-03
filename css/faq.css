@@ -1,0 +1,181 @@
+.faqs_h1{
+    max-width: 1100px;
+    width: 100%;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+}
+*{
+    font-family: 'Manrope', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Scada', sans-serif;
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.faq_accardion{
+    background-color: #000000;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.for_acc_div{
+    width: 100%;
+    max-width: 900px;
+    min-height: 80px;
+    background-color: #212529;
+    margin: auto;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.for_acc_div h1{
+    font-size: 35px;
+    margin-left: 20px;
+    font-weight: 400;
+}
+.acc_bottom{
+    width: 90%;
+    max-width: 840px;
+    background-color: #484848;
+    margin: auto;
+    transition: 1s;
+    height: 0;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.for_acc_div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+.for_acc_flex{
+    display: flex;
+    align-items: center;
+}
+.for_acc_div i{
+    font-size: 60px;
+    transition: 1s;
+}
+.acc_div{
+    margin-top: 60px;
+}
+.acc_bottom1{
+    padding: 100px 20px;
+}
+.arrow_bottom1{
+    transform: rotate(180deg);
+}
+.acc_bottom p{
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.bottom_faq_accardion{
+    background-color: #000617;
+    padding: 120px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.center_faq_card{
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    background-color: #212529;
+    padding: 50px 0px;
+    border-radius: 35px;
+}
+.center_faq_card h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+.center_faq_card{
+    text-align: center;
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.for_block{
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+}
+.center_faq_card input{
+    max-width: 650px;
+    width: 100%;
+    margin: auto;
+    background-color: #484848;
+    margin-top: 30px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    outline: none;
+    color: white;
+}
+.center_faq_card input::placeholder{
+    color: white;
+}
+#texarea{
+    padding-bottom: 70px;
+}
+.center_faq_card button{
+    background-color: #2E2F8C;
+    margin: auto;
+    border-radius: 10px;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-top: 30px;
+    max-width: 300px;
+    width: 100%;
+    min-height: 60px;
+    cursor: pointer;
+}
+@media(max-width:650px){
+    .for_acc_div h1{
+        font-size: 25px;
+    }
+    .for_acc_div i{
+        font-size: 45px;
+    }
+    .acc_bottom p{
+        font-size: 20px;
+    }
+    .faqs_h1{
+        font-size: 40px;
+    }
+    .center_faq_card h2{
+        font-size: 30px;
+    }
+}
+@media(max-width:440px){
+    .for_acc_div h1{
+        font-size: 20px;
+    }
+    .for_acc_div i{
+        font-size: 35px;
+    }
+    .acc_bottom p{
+        font-size: 16px;
+    }
+    .faqs_h1{
+        font-size: 30px;
+    }
+    .center_faq_card{
+        border-radius: 25px;
+    }
+    .center_faq_card input{
+        margin-top: 20px;
+    }
+    .center_faq_card button{
+        margin-top: 20px;
+    }
+    .center_faq_card h2{
+        font-size: 25px;
+    }
+}
