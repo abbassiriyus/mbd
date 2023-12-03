@@ -197,6 +197,11 @@ body {
     
 }
 
+.swiper-slide {
+    border-radius: 20px !important;
+    margin-bottom: 3rem !important;
+}
+
 
 
 
