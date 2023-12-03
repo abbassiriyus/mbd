@@ -7,7 +7,9 @@
     box-sizing: border-box;
 }
 .help_header{
+    background: url("../image/a-close-up-of-a-robot-s-gear_188544-21931\ 1.png");
     min-height: 550px;
+    background-size: cover;
     position: relative;
     overflow: hidden;
 }
@@ -190,7 +192,7 @@
         font-size: 16px;
     }
     .help_header{
-        height: 400px !important;
+        min-height: 400px !important;
     }
     .help_header img{
         min-height: 400px !important;
