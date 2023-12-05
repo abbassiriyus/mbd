@@ -47,6 +47,11 @@
     font-size: 20px;
     cursor: pointer;
 }
+.help_header button:hover{
+    cursor: pointer;
+    transition: 1.0s;
+    background-color: #14167e;
+}
 .for_help_bottom{
     position: relative;
     z-index: 11111111;
@@ -114,6 +119,11 @@
     margin-top: 30px;
     cursor: pointer;
 }
+.help_card button:hover{
+    cursor: pointer;
+    transition: 1.0s;
+    background-color: #14167e;
+}
 .help_cards{
     display: flex;
     justify-content: center;
@@ -139,6 +149,11 @@
     margin-top: 80px;
     font-size: 22px;
 }
+.red_button:hover{
+    cursor: pointer;
+    transition: 1.0s;
+    background-color: #bb0101;
+} 
 .help_accardions h5{
     color: white;
     font-size: 65px;

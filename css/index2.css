@@ -75,6 +75,11 @@ body {
     line-height: normal;
     cursor: pointer;
 }
+.index2_main_text button:hover{
+    cursor: pointer;
+    transition: 1.0s;
+    background-color: rgba(255, 0, 0, 0.575);
+}
 
 .ind2_main_end {
     width: 100%;

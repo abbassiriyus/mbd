@@ -136,6 +136,11 @@ box-sizing: border-box;
     min-height: 60px;
     cursor: pointer;
 }
+.center_faq_card button:hover{
+    cursor: pointer;
+    transition: 1.0s;
+    background-color: #0e108b;
+}
 @media(max-width:650px){
     .for_acc_div h1{
         font-size: 25px;
