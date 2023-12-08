@@ -7,7 +7,6 @@
     outline: none;
     text-decoration: none;
     font-family: 'Scada', sans-serif;
-    color: #FFFFFF;
 }
 
 body {
@@ -74,6 +73,7 @@ body {
     font-weight: 700;
     line-height: normal;
     cursor: pointer;
+    color: #fff;
 }
 .index2_main_text button:hover{
     cursor: pointer;
@@ -83,6 +83,7 @@ body {
 
 .ind2_main_end {
     width: 100%;
+    max-width: 1920px;
     background: #000;
     padding: 50px 2rem;
 }
@@ -446,6 +447,13 @@ body {
         justify-content: center;
         align-items: center;
         padding: 65px 20px;
+    }
+
+    .ind2_main_end {
+        width: 100%;
+        max-width: none;
+        background: #000;
+        padding: 50px 2rem;
     }
 
     .ind_main_end_p {

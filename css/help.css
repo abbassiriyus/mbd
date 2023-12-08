@@ -189,7 +189,7 @@
 }
 @media(max-width:450px){
     .help_accardions h5{
-        font-size: 40px;
+        font-size: 30px;
     }
     .help_center_header h2{
         font-size: 40px;
@@ -211,5 +211,20 @@
     }
     .help_header img{
         min-height: 400px !important;
+    }
+
+    .help_accardions {
+        background-color: #000000;
+        padding: 120px 0px;
+        padding-left: 4px;
+        padding-right: 4px;
+    }
+
+    .for_acc_div h1 {
+        font-size: 15px;
+    }
+
+    .for_acc_div i {
+        font-size: 24px;
     }
 }
